@@ -34,7 +34,7 @@
     },
     "dates": {
       "@id": "sdo:temporalCoverage",
-      "@type": "sdo:DateTime"
+      "@type": "sdo:Text"
     },
     "duration": {
       "@id": "sdo:activityDuration",

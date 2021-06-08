@@ -41,7 +41,7 @@
     },
     "dates": {
       "@id": "sdo:temporalCoverage",
-      "@type": "@Text"
+      "@type": "sdo:Text"
     },
     "extraProperties": {
       "@id": "sdo:additionalProperty",

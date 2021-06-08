@@ -32,7 +32,7 @@
     },
     "dates": {
       "@id": "sdo:temporalCoverage",
-      "@type": "sdo:DataCatalog"
+      "@type": "sdo:Text"
     },
     "curationStatus": {
       "@id": "sdo:ratingValue",
