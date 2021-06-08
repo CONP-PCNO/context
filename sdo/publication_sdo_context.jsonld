@@ -14,6 +14,24 @@
     "publicationVenue": "sdo:publication",
     "authorList": "sdo:author",
     "authors": "sdo:author",
-    "acknowledges": "sdo:funder"
+    "acknowledges": "sdo:funder",
+    "alternateIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "relatedIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "dates": {
+      "@id": "sdo:temporalCoverage",
+      "@type": "sdo:Text"
+    },
+    "authorsList": "sdo:author",
+    "licenses": "sdo:license",
+    "extraProperties": {
+      "@id": "sdo:additionalProperty",
+      "@type": "sdo:PropertyValue"
+    }
   }
 }

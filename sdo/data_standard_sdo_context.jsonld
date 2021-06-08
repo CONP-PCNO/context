@@ -2,7 +2,7 @@
   "@context": {
     "sdo": "https://schema.org/",
     "DataStandard": "sdo:CreativeWork",
-     "identifier": {
+    "identifier": {
       "@id": "sdo:identifier",
       "@type": "sdo:Text"
     },
@@ -15,6 +15,19 @@
       "@type": "sdo:Text"
     },
     "licenses": "sdo:license",
-    "version": "sdo:version"
+    "version": "sdo:version",
+    "alternateIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "relatedIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "type": "sdo:Property",
+    "extraProperties": {
+      "@id": "sdo:additionalProperty",
+      "@type": "sdo:PropertyValue"
+    }
   }
 }

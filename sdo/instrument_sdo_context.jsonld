@@ -2,7 +2,7 @@
   "@context": {
     "sdo": "https://schema.org/",
     "Instrument": "sdo:Product",
-     "identifier": {
+    "identifier": {
       "@id": "sdo:identifier",
       "@type": "sdo:Text"
     },
@@ -10,9 +10,30 @@
       "@id": "sdo:name",
       "@type": "sdo:Text"
     },
-    "description":{
-        "@id": "sdo:description",
-        "@type": "sdo:Text"
+    "description": {
+      "@id": "sdo:description",
+      "@type": "sdo:Text"
+    },
+    "alternateIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "relatedIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "type": "sdo:Property",
+    "isUsedBy": {
+      "@id": "sdo:workExample",
+      "@type": "sdo:Thing"
+    },
+    "manufacturer": {
+      "@id": "sdo:manufacturer",
+      "@type": "sdo:Organization"
+    },
+    "extraProperties": {
+      "@id": "sdo:additionalProperty",
+      "@type": "sdo:PropertyValue"
     }
   }
 }

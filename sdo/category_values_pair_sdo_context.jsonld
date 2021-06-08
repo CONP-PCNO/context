@@ -9,6 +9,10 @@
     "categoryIRI": {
       "@id": "sdo:url",
       "@type": "sdo:URL"
+    },
+    "values": {
+      "@id": "sdo:additionalProperty",
+      "@type": "sdo:Thing"
     }
   }
 }

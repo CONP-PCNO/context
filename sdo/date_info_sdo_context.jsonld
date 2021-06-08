@@ -1,12 +1,12 @@
 {
- "@context": {
+  "@context": {
     "sdo": "https://schema.org/",
     "Date": "sdo:DateTime",
     "date": {
-        "@id": "sdo:Property"
+      "@id": "sdo:Property"
     },
-    "type":{
-        "@id": "sdo:Property"
+    "type": {
+      "@id": "sdo:Property"
     }
-   }
+  }
 }

@@ -15,16 +15,24 @@
       "@type": "sdo:Text"
     },
     "postalAddress": {
-        "@id": "sdo:address",
-        "@type": "sdo:PostalAddress"
+      "@id": "sdo:address",
+      "@type": "sdo:PostalAddress"
     },
     "geometry": {
-        "@id": "sdo:geospatiallyContains",
-        "@type": "sdo:GeospatialGeometry"
+      "@id": "sdo:geospatiallyContains",
+      "@type": "sdo:GeospatialGeometry"
     },
     "coordinates": {
-         "@id": "sdo:geo",
-         "@type": "sdo:GeoCoordinates"
+      "@id": "sdo:geo",
+      "@type": "sdo:GeoCoordinates"
+    },
+    "alternateIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "relatedIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
     }
   }
 }

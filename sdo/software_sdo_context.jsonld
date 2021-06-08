@@ -15,6 +15,30 @@
       "@type": "sdo:Text"
     },
     "licenses": "sdo:license",
-    "version": "sdo:version"
+    "version": "sdo:version",
+    "alternateIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "relatedIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "dates": {
+      "@id": "sdo:temporalCoverage",
+      "@type": "sdo:Text"
+    },
+    "isUsedBy": {
+      "@id": "sdo:workExample",
+      "@type": "sdo:Thing"
+    },
+    "manufacturer": {
+      "@id": "sdo:manufacturer",
+      "@type": "sdo:Organization"
+    },
+    "extraProperties": {
+      "@id": "sdo:additionalProperty",
+      "@type": "sdo:PropertyValue"
+    }
   }
 }

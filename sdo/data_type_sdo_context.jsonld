@@ -9,10 +9,10 @@
       "@id": "sdo:Property"
     },
     "platform": {
-       "@id": "sdo:Property"
+      "@id": "sdo:Property"
     },
     "instrument": {
-        "@id": "sdo:instrument"
+      "@id": "sdo:instrument"
     }
   }
 }

@@ -11,8 +11,40 @@
       "@type": "sdo:Text"
     },
     "version": {
-        "@id": "sdo:version",
-        "@type": "sdo:Text"
+      "@id": "sdo:version",
+      "@type": "sdo:Text"
+    },
+    "alternateIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "relatedIdentifiers": {
+      "@id": "sdo:identifier",
+      "@type": "sdo:Text"
+    },
+    "dates": {
+      "@id": "sdo:temporalCoverage",
+      "@type": "sdo:Text"
+    },
+    "licensingAuthority": {
+      "@id": "sdo:authenticator",
+      "@type": "sdo:Organization"
+    },
+    "creators": {
+      "@id": "sdo:creator",
+      "@type": "sdo:Thing"
+    },
+    "consentInformation": {
+      "@id": "sdo:permissionType",
+      "@type": "sdo:DigitalDocumentPermissionType"
+    },
+    "dataUseConditions": {
+      "@id": "sdo:conditionsOfAccess",
+      "@type": "sdo:Text"
+    },
+    "extraProperties": {
+      "@id": "sdo:additionalProperty",
+      "@type": "sdo:PropertyValue"
     }
   }
 }
