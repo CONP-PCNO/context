@@ -36,7 +36,7 @@
     },
     "duration": {
       "@id": "sdo:activityDuration",
-      "@type": "sdo:Thing"
+      "@type": "sdo:Duration"
     },
     "location": {
       "@id": "sdo:location",
