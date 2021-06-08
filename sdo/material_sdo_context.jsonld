@@ -50,7 +50,7 @@
     },
     "dates": {
       "@id": "sdo:temporalCoverage",
-      "@type": "sdo:DigitalDocumentPermissionType"
+      "@type": "sdo:Text"
     },
     "extraProperties": {
       "@id": "sdo:additionalProperty",
